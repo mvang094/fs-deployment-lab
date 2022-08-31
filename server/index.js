@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.html'));
 })
 
-const port = 4006;
+const port = 4005;
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
